@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Twinscape working data: only the bundled open-data samples are tracked
+cache/*
+!cache/README.md
+!cache/_shared/
+!cache/midtown_d12e301dc4/
+!cache/lower_manhattan_e2f8b1722e/
+export/
+renders/
+
+# Houdini backups
+houdini/otls/backup/
+houdini/scenes/backup/
+*.hip_bak*
+
+# Unreal project: build products, caches and generated content
+unreal/TwinscapeUE/Binaries/
+unreal/TwinscapeUE/Intermediate/
+unreal/TwinscapeUE/Saved/
+unreal/TwinscapeUE/DerivedDataCache/
+unreal/TwinscapeUE/Plugins/HoudiniEngine/
+unreal/TwinscapeUE/Content/*
+!unreal/TwinscapeUE/Content/Python/
+*.sln
+*.xcworkspace

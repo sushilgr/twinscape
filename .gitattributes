@@ -1,0 +1,12 @@
+*.hda      binary
+*.hip      binary
+*.bgeo.sc  binary
+*.exr      binary
+*.jpg      binary
+*.png      binary
+*.gif      binary
+*.mp4      binary
+*.py       text eol=lf
+*.md       text eol=lf
+*.ini      text eol=lf
+*.json     text eol=lf

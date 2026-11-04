@@ -1,0 +1,45 @@
+{
+ "area_id": "midtown_d12e301dc4",
+ "params": {
+  "name": "Midtown",
+  "lat": 40.7484,
+  "lon": -73.9857,
+  "size": 1000.0,
+  "mode": "procedural",
+  "terrain_src": "usgs_3dep",
+  "imagery_src": "usgs_naip",
+  "buildings_src": "auto",
+  "dem_res": 2.0,
+  "ortho_res": 0.3,
+  "max_tex": 8192,
+  "g3d_error": 3.0,
+  "default_height": 10.0,
+  "cache_dir": ""
+ },
+ "created": "2026-11-02 18:50:49",
+ "convention": "Houdini Y-up: x=East, y=Up, z=South (metres). Unreal via HE: X=East, Y=South, Z=Up.",
+ "facades": [
+  "_shared/facade_0.jpg",
+  "_shared/facade_1.jpg",
+  "_shared/facade_2.jpg",
+  "_shared/facade_3.jpg"
+ ],
+ "dem_n": 501,
+ "elev_ref": 15.090954780578613,
+ "elev_min": 0.7901828289031982,
+ "elev_max": 25.764400482177734,
+ "terrain_src_used": "usgs_3dep",
+ "ortho_px": 4096,
+ "ortho_res": 0.244140625,
+ "buildings": 1738,
+ "buildings_src_used": "osm3d+nyc_heights",
+ "building_parts": 811,
+ "pitched_roofs": 60,
+ "attribution": [
+  "Elevation: USGS 3D Elevation Program",
+  "Imagery: USDA NAIP via USGS The National Map",
+  "Buildings: (c) OpenStreetMap contributors (ODbL); heights NYC Open Data"
+ ],
+ "seconds": 6.2,
+ "sample": "Bundled open-data sample: works offline, no API key needed."
+}
